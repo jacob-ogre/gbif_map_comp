@@ -14,7 +14,6 @@ shinyUI(fluidPage(
       padding: 0;
     }"
   ),
-  br(),
   div(class = "outer",
     leafletOutput("sp_map", height = "100%", width = "100%")
   )
